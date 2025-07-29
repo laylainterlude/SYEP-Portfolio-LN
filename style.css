@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:#8659a0;
+    background-color:hsl(276, 29%, 97%);
     text-align: center;
     line-height: 2.2;
 }
@@ -40,7 +40,7 @@ font-size: 22px;
 .grid div{
     padding: 20px;
     border-radius: 40px;
-    background-color: rgb(138, 43, 226);
+    background-color: #bba2d3;
     width: 100px;
 }
 
