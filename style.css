@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:hsl(276, 29%, 97%);
+    background-color:hwb(275 77% 13%);
     text-align: center;
     line-height: 2.2;
 }
@@ -28,7 +28,7 @@ font-size: 22px;
 }
 
 .accent{
-    color: black;
+    color: #d19494;
 }
 
 .grid{
@@ -40,11 +40,32 @@ font-size: 22px;
 .grid div{
     padding: 20px;
     border-radius: 40px;
-    background-color: #bba2d3;
+    background-color: rgb(56, 92, 80);
     width: 100px;
 }
 
 
 @media (max-width: 768px){
-    body{background-color: aliceblue;}:}
+    body{background-color: #083e6d;}:}
+}
+
+#particles-js {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1; /* Keeps it behind other elements */
+background-color: #0d1117; /* Dark background */
+}
+
+body {
+background: linear-gradient(-45deg, #ff6ec4, #7873f5, #42e695, #fbb03b);
+background-size: 400% 400%;
+animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
 }
